@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube_login</title>
+    <link rel="stylesheet" href="Login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7091e5da50.js" 
+    crossorigin="anonymous"></script>    
+
+</head>
+<body>
+    <section class="login.form">
+    <header>
+        <div class="LogoAndTitle">
+            <i class="fab fa-youtube" ></i>
+            <span>로그인</span>
+        </div>
+    </header>
+    <form action="youtube.html" method="get">
+        <div class="int-area">
+            <input type="text" id="id" name="id"  autocomplete="off" required maxlength="12">
+            <label for="id">USER ID</label>
+        </div>
+        <div class="int-area">
+            <input type="password" name="pw" id="pw" autocomplete="off" required minlength="8">
+            <label for="pw">PASSWORD</label>
+        </div>
+        <div class="btn-area">
+            <button id="btn" type="submit">LOGIN</button>
+        </div>
+    </form>
+    <div class="MemberAndDelete">
+        <a href="member.html" class="member">회원가입</a>
+        <a href="#" class="delete">계정삭제</a>
+    </div>
+</section>
+
+
+</body>
+
+</html>

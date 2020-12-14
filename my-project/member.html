@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube_member</title>
+    <link rel="stylesheet" href="Login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7091e5da50.js" 
+    crossorigin="anonymous"></script>    
+</head>
+<body>
+    <section class="login.form">
+        <header>
+            <div class="LogoAndTitle">
+                <span>회원가입</span>
+            </div>
+        </header>
+        <form action="youtube.html" method="get">
+            <button class="btn-primary" onclick="registerCheckFunction()">중복체크</button>
+            <div class="int-area">
+                <input type="text" id="userID" name="userID"  autocomplete="off" required maxlength="12">
+                <label for="id">아이디</label>
+            </div>
+            <div class="int-area">
+                <input type="password" name="pw1" id="pw1" autocomplete="off" required minlength="8">
+                <label for="pw">비밀번호</label>
+            </div>
+            <div class="int-area">
+                <input type="password" name="pw2" id="pw2" autocomplete="off" required minlength="8">
+                <label for="pw">비밀번호 확인</label>
+            </div>
+            <div class="int-area">
+                <input type="text" name="userName" id="userName" autocomplete="off" required minlength="8">
+                <label for="pw">이름</label>
+            </div>
+            <div class="btn-area">
+                <button id="btn" type="submit">완료</button>
+            </div>
+        </form>
+        
+    </section>
+</body>
+</html>
