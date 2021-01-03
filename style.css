@@ -107,7 +107,7 @@ button {
 }
 
 #navbar.navbar--dark {
-  background-color: rgba(119, 41, 60, 0.993);
+  background-color: rgba(54, 45, 45);
   padding: 8px;
 }
 
@@ -133,7 +133,7 @@ button {
 }
 
 .navbar_menu_item:hover {
-  background-color: rgb(71, 14, 14);
+  background-color: rgb(156, 45, 45);
 }
 
 .navbar_toggle-btn {
@@ -323,6 +323,10 @@ button {
 .tools,
 .etc {
   padding: 2px;
+}
+
+.etc_list {
+  line-height: 200px;
 }
 
 /* work */
